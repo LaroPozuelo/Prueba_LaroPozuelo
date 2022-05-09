@@ -66,7 +66,7 @@ public class Ejercicio {
 		Scanner ent = new Scanner(System.in);
 		float radio=0.0f;
 		
-		System.out.println("Introduce el radio del circulo: ");
+		System.out.println("Introduce el radio del circulo ");
 		
 		return (float) (Math.PI*Math.pow(radio, 2));
 	}
