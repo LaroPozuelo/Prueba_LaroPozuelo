@@ -63,6 +63,11 @@ public class Ejercicio {
 		
 	}
 	public static float areaCirculo() {
+		Scanner ent = new Scanner(System.in);
+		float radio=0.0f;
 		
+		System.out.println("Introduce el radio del circulo: ");
+		
+		return (float) (Math.PI*Math.pow(radio, 2));
 	}
 }
